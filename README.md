@@ -23,6 +23,8 @@ The information provided by the Board must then be communicated concisely.
 
 ## Election Audit Results
 There was a total of 369,711 votes cast this election.
+
+### Analysis of Candidates
 There were three candidates:
 1.	Charles Casper Stockham
 2.	Diana DeGette
@@ -35,7 +37,9 @@ The candidate results were as follows:
 
 •	Raymon Anthony Doane received 3.1% of the votes, and 11,606 votes.
 
+The winner was Diana DeGette, who received 73.8% of the vote, and 272,892 votes.
 
+### Analysis of Counties
 There was a total of three counties:
 1.	Jefferson County
 2.	Denver County
@@ -48,7 +52,6 @@ The analysis of county-turnout is as follows:
 
 •	6.7% of the total turnout represented Arapahoe County (11,606 voters)
 
-The winner was Diana DeGette, who received 73.8% of the vote, and 272,892 votes.
 Denver county saw the greatest voter turnout, representing 82.8% of the total vote, translating to a total of 306,055 voters.
 
 ![Results](https://user-images.githubusercontent.com/68082808/89748397-fcd22e00-da90-11ea-9b91-f32398e451de.png)
@@ -56,7 +59,7 @@ Denver county saw the greatest voter turnout, representing 82.8% of the total vo
 
 ## Election-Audit Summary
 
-To the Colorado Board of Elections, this script may be recycled if the .csv files remain formatted as it is currently. To make this script more versatile, it would have to account for a change in the structure of the csv format. To be specific, the script relies on the county being in the second column of any row of the .csv file, and the candidate voted for to be on the third. The script can be modified to have the compiler itself identify the column which represents the county, and the column which stores the name of the candidate voted for. Furthermore, it can be modified to consider any electoral system set in place, and communicate any meaningful results found through a relevant analysis. This modification can be accounted for with a dictionary including each district and its respective number of points.
+To the Colorado Board of Elections, this script may be recycled if the .csv files remain formatted as it is currently. To make this script more versatile, it would have to account for a change in the structure of the csv format. To be specific, the script currently relies on the county to be defined in the second column of any row of the .csv file, and the candidate voted for to be in the third. The script can be modified to have the compiler itself identify the column which represents the county, and the column which stores the name of the candidate voted for. Furthermore, it can be modified to consider any electoral system set in place, and communicate any meaningful results found through a relevant analysis. This specific modification can be accounted for with a dictionary including each district and its respective number of points.
 
 
 ## Concluding Statement
